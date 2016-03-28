@@ -1,0 +1,10 @@
+<panel>
+	<title>Bit9 Carbon Black - Endpoint Changes in Last 24H</title>
+    <table>   
+        <search>
+          <query>eventtype=bit9_carbonblack_change_analysis earliest=-1d   action=* |  chart count over change_type  by action</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+      </table>
+</panel>

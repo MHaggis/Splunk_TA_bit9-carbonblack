@@ -1,0 +1,2 @@
+[monitor://<path_of_the_json_file>]
+sourcetype = bit9:carbonblack:json

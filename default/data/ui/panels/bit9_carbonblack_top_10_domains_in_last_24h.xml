@@ -1,0 +1,10 @@
+<panel>
+	<title>Bit9 Carbon Black - Top 10 Domains in Last 24H</title>
+    <table>
+      <search>
+        <query>eventtype = bit9_carbonblack_network earliest = -1d domain!="" |top 10 domain</query>
+        <earliest></earliest>
+        <latest></latest>
+      </search>
+    </table>
+</panel>
